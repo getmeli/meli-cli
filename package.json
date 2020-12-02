@@ -24,6 +24,9 @@
   "author": "Charlie Bravo SRL",
   "license": "UNLICENSED",
   "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
     "@types/debug": "^4.1.5",
     "@types/jest": "^25.2.3",
     "@types/node": "^12.19.4",
@@ -40,6 +43,7 @@
     "eslint-plugin-security": "^1.4.0",
     "form-data": "^3.0.0",
     "jest": "^26.6.3",
+    "semantic-release": "^17.3.0",
     "semantic-release-license": "^1.0.0",
     "tar": "^6.0.5",
     "terser-webpack-plugin": "^2.3.8",
