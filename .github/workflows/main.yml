@@ -38,6 +38,8 @@ jobs:
         if: ${{ env.IS_RELEASE_BRANCH == 'true' }}
         run: |
           source ./scripts/setup-git.sh "$RELEASE_DEPLOY_KEY"
+          # allow publishing scoped package as public to avoid 402
+          npm config set access public
           npx semantic-release -r $GITHUB_REPOSITORY_SSH_URL
         env:
           RELEASE_DEPLOY_KEY: ${{ secrets.RELEASE_DEPLOY_KEY }}
