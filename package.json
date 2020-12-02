@@ -1,11 +1,15 @@
 {
-  "name": "@melihq/cli",
+  "name": "@getmeli/cli",
   "version": "1.0.0-next.1",
   "description": "Meli CLI",
   "main": "build/index.js",
+  "private": false,
   "bin": {
     "meli": "./build/index.js"
   },
+  "files": [
+    "build/index.js"
+  ],
   "scripts": {
     "start": "npm run build:watch --mode=development",
     "build": "rimraf build && webpack --mode=production",
@@ -16,10 +20,6 @@
     "analyze:bundle": "export ANALYZE_BUNDLE=1 && webpack --mode=production",
     "lint": "eslint ./src --ext .ts,.tsx",
     "lint:fix": "eslint ./src --ext .js,.jsx,.ts,.tsx --fix"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@gitlab.charlie-bravo.be:meli/meli-cli.git"
   },
   "author": "Charlie Bravo SRL",
   "license": "UNLICENSED",
