@@ -1,6 +1,6 @@
 {
   "name": "@getmeli/cli",
-  "version": "1.0.0-next.1",
+  "version": "1.0.0-next.2",
   "description": "Meli CLI",
   "main": "build/index.js",
   "bin": {
