@@ -1,4 +1,3 @@
-import 'reflect-metadata';
 import { getBranch } from './get-branch';
 
 describe('getCurrentBranchNameInCiEnvironment', () => {

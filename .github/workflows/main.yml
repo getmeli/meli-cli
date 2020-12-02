@@ -13,12 +13,27 @@ jobs:
           node-version: '12'
       - name: "install dependencies"
         run: npm ci
+      - name: "create VERSION file"
+        if: ${{ env.IS_RELEASE_BRANCH == 'true' }}
+        run: |
+          source ./scripts/setup-git.sh "$RELEASE_DEPLOY_KEY"
+          echo $GITHUB_REPOSITORY_SSH_URL
+          npx semantic-release -r $GITHUB_REPOSITORY_SSH_URL -d
+          echo "Next release version is $(cat VERSION)"
+        env:
+          RELEASE_DEPLOY_KEY: ${{ secrets.RELEASE_DEPLOY_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: "Lint"
         run: npm run lint
       - name: "test"
         run: npm run test
       - name: "build"
-        run: npm run build
+        run: |
+          if [ -f VERSION ]; then
+            npm version --no-git-tag-version $(cat VERSION) --allow-same-version
+          fi
+          npm run build
+          docker build -f ./docker/Dockerfile -t $TMP_DOCKER_IMAGE .
       - name: "release"
         if: ${{ env.IS_RELEASE_BRANCH == 'true' }}
         run: |
