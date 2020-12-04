@@ -1,3 +1,10 @@
+# [1.0.0-next.4](https://github.com/getmeli/meli-cli/compare/v1.0.0-next.3...v1.0.0-next.4) (2020-12-04)
+
+
+### Bug Fixes
+
+* add missing source-map-support ([dfa044b](https://github.com/getmeli/meli-cli/commit/dfa044bbd899b53cfe0d965c077c88ad2779577c))
+
 # [1.0.0-next.3](https://github.com/getmeli/meli-cli/compare/v1.0.0-next.2...v1.0.0-next.3) (2020-12-04)
 
 
