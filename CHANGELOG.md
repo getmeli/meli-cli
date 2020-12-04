@@ -1,3 +1,10 @@
+# [1.0.0-next.3](https://github.com/getmeli/meli-cli/compare/v1.0.0-next.2...v1.0.0-next.3) (2020-12-04)
+
+
+### Bug Fixes
+
+* missing dependencies in published package ([6e452c8](https://github.com/getmeli/meli-cli/commit/6e452c8efc06b29a40f9e5b0bd5532716c28a51e))
+
 # [1.0.0-next.2](https://github.com/getmeli/meli-cli/compare/v1.0.0-next.1...v1.0.0-next.2) (2020-12-02)
 
 
