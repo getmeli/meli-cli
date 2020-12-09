@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/getmeli/meli-cli/compare/v1.0.0...v1.1.0) (2020-12-09)
+
+
+### Features
+
+* add sourcemaps to published package ([c371295](https://github.com/getmeli/meli-cli/commit/c3712955958d852d09d860a51a35b6af6507ec45))
+
 # 1.0.0 (2020-12-09)
 
 
