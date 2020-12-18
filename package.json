@@ -1,6 +1,6 @@
 {
   "name": "@getmeli/cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Meli CLI",
   "main": "build/index.js",
   "bin": {
@@ -28,8 +28,10 @@
     "chalk": "^4.1.0",
     "debug": "^4.2.0",
     "form-data": "^3.0.0",
+    "slugify": "^1.4.6",
     "source-map-support": "^0.5.19",
     "tar": "^6.0.5",
+    "uuid": "^8.3.2",
     "winston": "^3.3.3",
     "yargs": "^15.4.1"
   },
@@ -41,6 +43,7 @@
     "@types/jest": "^25.2.3",
     "@types/node": "^12.19.4",
     "@types/tar": "^4.0.3",
+    "@types/uuid": "^8.3.0",
     "@typescript-eslint/eslint-plugin": "^3.9.0",
     "@typescript-eslint/parser": "^3.9.0",
     "eslint": "^7.7.0",

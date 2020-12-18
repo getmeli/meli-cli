@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/getmeli/meli-cli/compare/v1.1.0...v1.1.1) (2020-12-18)
+
+
+### Bug Fixes
+
+* tar not working for branches with slashes ([3d21eea](https://github.com/getmeli/meli-cli/commit/3d21eea2347cc382b46ddc08de29b19ec6e88231))
+
 # [1.1.0](https://github.com/getmeli/meli-cli/compare/v1.0.0...v1.1.0) (2020-12-09)
 
 
