@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/getmeli/meli-cli/compare/v1.1.1...v1.1.2) (2020-12-23)
+
+
+### Bug Fixes
+
+* cannot upload large sites ([2b3ea92](https://github.com/getmeli/meli-cli/commit/2b3ea929c4b0f315f058ed9885669aecbc7b22bf))
+
 ## [1.1.1](https://github.com/getmeli/meli-cli/compare/v1.1.0...v1.1.1) (2020-12-18)
 
 
