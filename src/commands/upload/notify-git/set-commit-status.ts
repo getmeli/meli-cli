@@ -6,7 +6,7 @@ import { Gitlab } from './gitlab';
 import { Gitea } from './gitea';
 import { UploadResponse } from '../upload-response';
 
-const logger = new Logger('meli.server:setCommitStatus');
+const logger = new Logger('meli.cli:setCommitStatus');
 
 export async function setCommitStatus(data: UploadResponse, release?: string): Promise<void> {
   const commitHash = getCommitHash();
