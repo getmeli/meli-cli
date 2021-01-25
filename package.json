@@ -24,7 +24,7 @@
   "author": "Charlie Bravo SRL",
   "license": "UNLICENSED",
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "chalk": "^4.1.0",
     "debug": "^4.2.0",
     "form-data": "^3.0.0",
