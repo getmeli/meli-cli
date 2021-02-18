@@ -13,12 +13,12 @@ export async function setCommitStatus(data: UploadResponse, release?: string): P
   const repoId = getRepoId();
 
   if (!repoId) {
-    logger.warn('Repo id not detected, cannot set commit status');
+    logger[process.stdout.isTTY ? 'debug' : 'warn']('Repo id not detected, cannot set commit status');
     return;
   }
 
   if (!commitHash) {
-    logger.warn('Commit hash not detected, cannot set commit status');
+    logger[process.stdout.isTTY ? 'debug' : 'warn']('Commit hash not detected, cannot set commit status');
     return;
   }
 
