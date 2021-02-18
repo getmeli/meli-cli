@@ -1,3 +1,16 @@
+# [1.2.0-next.1](https://github.com/getmeli/meli-cli/compare/v1.1.2...v1.2.0-next.1) (2021-02-18)
+
+
+### Bug Fixes
+
+* wrong logger namespace ([c616d2e](https://github.com/getmeli/meli-cli/commit/c616d2eb4661188b4d7926e7f96bb9937bdd5814))
+
+
+### Features
+
+* only warn repo undetected inside non-tty ([1b91ee6](https://github.com/getmeli/meli-cli/commit/1b91ee6c3176adf87c1dde6d875b42703e2a0d09))
+* update axios ([091debe](https://github.com/getmeli/meli-cli/commit/091debe74562c0a2b869098a37d84d8c3220a563))
+
 ## [1.1.2](https://github.com/getmeli/meli-cli/compare/v1.1.1...v1.1.2) (2020-12-23)
 
 
